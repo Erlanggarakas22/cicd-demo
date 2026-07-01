@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.route("/")
 def hello():
     return "Hello DevOps CI/CD version 2"
-sapp.route("/health")
+@app.route("/health")
 def health():
     return "Healthy"
 
